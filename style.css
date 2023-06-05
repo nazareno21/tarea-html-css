@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 65px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;    
+}
+
+.header .nav-links li a:hover{
+    color: blueviolet;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: white;
+    padding: 9px 25px;
+    background: blueviolet;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: black;
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    margin-top: -65px;
+    padding: 130px;
+
+}
+
+.left {
+    flex-basis: 55%;
+    background-image: url();
+}
+
+.right {
+    flex-basis: 45%;
+
+}
+
+label {
+    display: block;
+
+}
+
+input.name {
+    height: 34px;
+    width: 180px;
+
+
+
+}
+
+input.last {
+    height: 34px;
+    width: 180px;
+
+}
+
+input.email {
+    height: 34px;
+    width: 436px;
+    margin-bottom: 12px;
+
+}
+
+input.company {
+    height: 34px;
+    width: 436px;
+    margin-bottom: 12px;
+
+}
+
+input.phone {
+    height: 34px;
+    width: 436px;
+    margin-bottom: 12px;
+
+}
+
+input.message {
+    height: 149px;
+    width: 436px;
+    margin-bottom: 12px;
+
+}
+
+button.send {
+    height: 32px;
+    width: 436px;
+    margin-top: 15px;
+    background-color: blueviolet;
+    color: #fff;
+
+}
+
+
+
+.imagen {
+    height: 212px;
+    width: 494px;
+    margin-top: 5px;
+
+}
+
+.login {
+    background-color: #fff;
+    padding: 8px;
+    border: cornflowerblue;
+
+}
+
+
+
+.direcciones {
+    height: 130px;
+    width: 494px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nombre {
+    display: flex;
+    gap: 76px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+form {
+    height: 600px;
+    width: 500px;
+    padding: 10px 60px;
+}
+
+h1 {
+    margin-top: -30px;
+    width: 350px;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.derecha {
+    width: 494px;
+}
+
